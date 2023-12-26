@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+opencv-python = "*"
+pyautogui = "*"
+mediapipe = "*"
+speechrecognition = "*"
+pyaudio = "*"
+pygame = "*"
+
+[dev-packages]
+pyinstaller = "*"
+numpy = "*"
+
+[requires]
+python_version = "3.9"
+
+[scripts]
+serve = "python hand_mouse/main.py"
+build = "pyinstaller main.spec"
