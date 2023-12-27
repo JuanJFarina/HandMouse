@@ -19,11 +19,11 @@ voices:
 
 Having python and pipenv installed, you can clone this repo and run the commands:
 
-`
+```
 pipenv install dev
 
 pipenv run serve
-`
+```
 
 To start the application.
 
